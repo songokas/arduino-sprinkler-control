@@ -1,0 +1,14 @@
+BOARD_TAG   = nano
+BOARD_SUB   = atmega328old
+#BOARD_TAG = uno
+ARDUINO_DIR = ${HOME}/install/arduino-1.8.9
+
+CXXFLAGS_STD = -Os -std=gnu++14 -ffunction-sections -fdata-sections -flto -Wl,--gc-sections -DDEBUG=1 -DNODE_ID=134 -DMAX_TIMERS=2 -DSHARED_KEY="\"longlonglongpass\"" -I $(realpath ../modules)
+
+USER_LIB_PATH = $(realpath arduino-link)
+ARDUINO_LIBS = Acorn128 AuthenticatedCipher CRC32 Cipher Crypto CryptoLW Entropy MemoryFree RF24 RF24Mesh RF24Network RtcDS3231 Streaming SPI Wire Domain RadioEncrypted Rtc RadioEncrypted/Entropy MqttModule ZoneMessageHandlers
+
+include /usr/share/arduino/Arduino.mk
+
+
+

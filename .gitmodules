@@ -1,0 +1,30 @@
+[submodule "libs/arduino-libs"]
+	path = libs/arduino-libs
+	url = https://github.com/rweather/arduinolibs
+[submodule "libs/Entropy"]
+	path = libs/Entropy
+	url = https://github.com/pmjdebruijn/Arduino-Entropy-Library
+[submodule "libs/CRC32"]
+	path = libs/CRC32
+	url = https://github.com/bakercp/CRC32
+[submodule "libs/Streaming"]
+	path = libs/Streaming
+	url = https://github.com/janelia-arduino/Streaming
+[submodule "libs/Rtc"]
+	path = libs/Rtc
+	url = https://github.com/Makuna/Rtc.git
+[submodule "libs/RF24"]
+	path = libs/RF24
+	url = https://github.com/nRF24/RF24
+[submodule "libs/RF24Network"]
+	path = libs/RF24Network
+	url = https://github.com/nRF24/RF24Network
+[submodule "libs/RF24Mesh"]
+	path = libs/RF24Mesh
+	url = https://github.com/nRF24/RF24Mesh
+[submodule "libs/arduino-tranceiver-encrypted"]
+	path = libs/arduino-tranceiver-encrypted
+	url = https://github.com/songokas/arduino-tranceiver-encrypted
+[submodule "libs/MemoryFree"]
+	path = libs/MemoryFree
+	url = https://github.com/McNeight/MemoryFree
